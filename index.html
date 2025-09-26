@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini CodePen</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini CodePen</h1>
+    <div class="buttons">
+      <button id="run-btn">Run</button>
+      <button id="reset-btn">Reset</button>
+      <button id="save-btn">Save</button>
+      <button id="download-btn">Download HTML</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="editor">
+      <h2>HTML</h2>
+      <textarea id="html-code" placeholder="Write HTML here..."></textarea>
+
+      <h2>CSS</h2>
+      <textarea id="css-code" placeholder="Write CSS here..."></textarea>
+
+      <h2>JavaScript</h2>
+      <textarea id="js-code" placeholder="Write JavaScript here..."></textarea>
+    </section>
+
+    <section class="preview">
+      <h2>Live Preview</h2>
+      <iframe id="output"></iframe>
+    </section>
+  </main>
+
+  <!-- ✅ Make sure this script is here at the end -->
+  <script src="script.js"></script>
+</body>
+</html>
